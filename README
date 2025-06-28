@@ -1,0 +1,17 @@
+
+Step 1: first clone this repository to your local machine using the following command one by one :
+
+git clone https://github.com/sami4346/Tools_Backend.git
+cd Tools_Backend
+npm install
+npm install cors
+npm install mongodb
+npm install mongoose
+npm install dotenv
+
+Step 2: Create a new file called .env in the root directory of your project and add 
+
+MONGO_URI = link from mongodb cluster
+DB_USER = user name from mongodb cluster
+DB_PASS = user password from mongodb cluster
+

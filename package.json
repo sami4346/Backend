@@ -1,0 +1,28 @@
+{
+  "name": "5bm-autmn-2025-3532",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "firebase": "^11.9.1",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/engsaiful0/5bm-aut-2025-express-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/engsaiful0/5bm-aut-2025-express-server/issues"
+  },
+  "homepage": "https://github.com/engsaiful0/5bm-aut-2025-express-server#readme",
+  "description": ""
+}
