@@ -8,6 +8,8 @@ npm install cors
 npm install mongodb
 npm install mongoose
 npm install dotenv
+npm install tailwindcss @tailwindcss/vite
+
 
 Step 2: Create a new file called .env in the root directory of your project and add 
 
