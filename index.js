@@ -8,6 +8,8 @@ const Contact = require('./models/Contact'); // Import your Mongoose model
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+const stripeRoutes = require('./stripeRoutes');
+
 // Middleware
 app.use(cors({ origin: 'http://localhost:5173' }));
 app.use(express.json());
@@ -16,6 +18,8 @@ app.use(express.json());
 app.get('/', (req, res) => {
   res.send('Hello from Express server!');
 });
+
+app.use('/api/stripe', stripeRoutes);
 
 app.post('/api/contact', async (req, res) => {
   try {
