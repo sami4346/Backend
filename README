@@ -9,6 +9,7 @@ npm install mongodb
 npm install mongoose
 npm install dotenv
 npm install tailwindcss @tailwindcss/vite
+npm install stripe
 
 
 Step 2: Create a new file called .env in the root directory of your project and add 
@@ -16,4 +17,6 @@ Step 2: Create a new file called .env in the root directory of your project and 
 MONGO_URI = link from mongodb cluster
 DB_USER = user name from mongodb cluster
 DB_PASS = user password from mongodb cluster
+STRIPE_SECRET_KEY= 
+CLIENT_URL=http://localhost:5173
 
